@@ -6,8 +6,7 @@ const uniqueValidator = require('mongoose-unique-validator');
 //CRear un objeto en donde tenga los valores que se aceptan
 //y el mensaje el VALUE es lo que el usuario ingresa en el rol
 let rolesValidos={
-    values:['
-    ','SUPER_ROLE'],
+    values:['ADMIN_ROLE','SUPER_ROLE'],
     message : '{VALUE}No es un Valor inbalido'
 };
 let Schema = mongoose.Schema;
